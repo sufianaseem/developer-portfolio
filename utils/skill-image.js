@@ -72,6 +72,7 @@ import vuetifyjs from '/public/svg/skills/vuetifyjs.svg';
 import webix from '/public/svg/skills/webix.svg';
 import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
+import nodejs from '/public/svg/skills/nodejs.svg';
 
 
 export const skillsImage = (skill) => {
@@ -85,6 +86,8 @@ export const skillsImage = (skill) => {
       return photoshop;
     case 'docker':
       return docker;
+    case 'node js':
+      return nodejs;
     case 'illustrator':
       return illustrator;
     case 'adobe xd':
